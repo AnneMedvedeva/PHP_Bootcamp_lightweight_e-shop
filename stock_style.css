@@ -1,0 +1,405 @@
+html, head, body{
+  width:100%;
+  margin:0;
+  padding:0;
+  font-family:Verdana;
+  height: 100vh;
+  background-color: #FAEBD7;
+}
+
+.clear {
+    clear: both;
+}
+.items {
+    display: block;
+
+}
+.item {
+    background-color: #fff;
+    float: left;
+    margin: 0 20px 10px 20px;
+    width: 305px;
+    padding: 10px;
+    height: 290px;
+}
+.item img {
+    height:200px;
+    width:auto;
+    display: block;
+    margin: auto;
+}
+.item h2 {
+    float:center;
+    font-size: 70%;
+    display: block;
+    width:100%;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 10px 0 5px 0;
+}
+.item button {
+    border: 1px solid #722A1B;
+    padding: -30px 14px 0 14px;
+    background-color: #fff;
+    color: #722A1B;
+    text-transform: uppercase;
+    float: right;
+    margin: -5px 0 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+span {
+    float:right;
+}
+/*-----------------------------------------------------------------------------------------------------------------------MENU*/
+a{
+  color:black;
+  text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+#menu{
+margin: auto;
+text-align: center;
+margin-top: 1vh;
+float:left;
+}
+#menu ul li{
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  margin-left: 1vw;
+}
+#menu ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+#menu a{
+  display: inline-block;
+  padding: 0.5vw 1vw;
+  font-size: 1vw;
+  border: 2px solid white;
+}
+#menu a:hover{
+    background-color: white;
+    opacity: 0.80;
+}
+
+@media only screen and (max-width: 1030px)  {
+    #menu a{
+        display: inline-block;
+        padding: 0.5vw 1vw;
+        font-size: 2vw;
+        border: 2px solid white;
+    }
+}
+
+@media only screen and (max-width: 460px)  {
+    #menu a{
+        display: inline-block;
+        padding: 0.5vw 1vw;
+        font-size: 3vw;
+        border: 2px solid white;
+    }
+}
+/*-----------------------------------------------------------------------------------------------------------------------MENU*/
+
+/*-----------------------------------------------------------------------------------------------------------------------ERROR*/
+
+.error{
+    padding:5px 5px 5px 5px;
+    margin:50px 20px 10px 20px;
+    background-color: #ff5050;
+    border: 2px solid #722A1B;
+}
+.error p{
+
+    margin-left: 5px;
+    vertical-align: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------IMAGE_HEADER*/
+
+.header_image{
+    content: url("http://wpsites.net/wp-content/uploads/2013/02/diamond.png");
+    display:block;
+    width:100%;
+    height:300px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------IMAGE_HEADER*/
+
+/*-----------------------------------------------------------------------------------------------------------------------SIGN_UP_FORM*/
+
+.sign_up_form{
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sign_up_form h1{
+    color: #564f3b;
+    font-size: 20px;
+}
+
+.sign_up_form form input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20px 8px 0px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.sign_up_form form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.sign_up_form form input[type=text], [type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------SIGN_UP_FORM*/
+
+/*-----------------------------------------------------------------------------------------------------------------------INFO_INFO*/
+div .info{
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+div .button{
+    width:30%;
+    padding:5px 5px 5px 5px;
+    margin:20px 20px 10px 15px;
+    background-color: #ff5050;
+    border: 2px solid #722A1B;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------INFO_INFO*/
+
+
+.category{
+    font-size: 20px;
+    color:#564f3b;
+    display: block;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item_info {
+    display: block;
+    padding-top: 60px;
+
+}
+.item_info_left{
+    background-color: #fff;
+    float: left;
+    margin: 10px 20px 10px 20px;
+    width: 305px;
+    padding: 10px;
+    height: 290px;
+}
+
+.item_info_left img{
+    width: 300px;
+    height:290px;
+}
+
+.item_info_left{
+    background-color: #fff;
+    float: left;
+    margin: 0 20px 10px 20px;
+    width: 305px;
+    padding: 10px;
+    height: 290px;
+}
+.item img {
+    height:200px;
+    width:auto;
+    display: block;
+    margin: auto;
+}
+.item_info .item_info_rignth2 h1{
+    float:center;
+    font-size: 70%;
+    display: block;
+    width:100%;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 10px 0 5px 0;
+}
+.item_info .item_info_rignth2 button {
+    border: 1px solid #722A1B;
+    padding-right: 20px;
+    background-color: #fff;
+    color: #722A1B;
+    text-transform: uppercase;
+    float: right;
+    margin: -5px 0 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.category h1{
+    font-size: 20px;
+    display: block;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.category form input[type=submit] {
+    width: 30px%;
+    background-color: #c6b9ad;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------ADMIN------------------*/
+.table { display: table; } 
+.table>* { display: table-row; }
+.table>*>* { display: table-cell; }
+/*---------------------------------------------------------------------------------------------------------------------------ADMIN------------------*/
+
+.cart_info{
+    color:#564f3b;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.cart_total{
+    padding-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+table, th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+.cart_button{
+    border: 1px solid #722A1B;
+    padding-right: 20px;
+    background-color: #fff;
+    color: #722A1B;
+    text-transform: uppercase;
+    margin: -5px 0 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart_but{
+    padding-top:10px;
+}
+
+.item_button{
+    border: 1px solid #722A1B;
+    padding-right: 20px;
+    background-color: #fff;
+    color: #722A1B;
+    text-transform: uppercase;
+    margin: -5px 0 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item_but{
+    padding-top:10px;
+}
+
+.cart_but .finish_order{
+    padding:5px 5px 5px 5px;
+    margin:50px 20px 10px 0px;
+    background-color: #4CAF50;
+    border: 2px solid #722A1B;
+}
+.cart_but .finish_order p{
+    margin-left: 5px;
+    vertical-align: center;
+}
+
+.item_order{
+    margin:100px 20px 10px 50px;
+    background-color: #4CAF50;
+}
+.item_order p{
+
+    margin-left: 5px;
+    vertical-align: center;
+}
+
+#hideMe {
+    -moz-animation: cssAnimation 0s ease-in 2s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 2s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 2s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 2s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+
+.name_store{
+    padding-left: 20px;
+    color: #564f3b;
+}
+
+.store_logo_name{
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-bottom: -20px;
+}
+
+.store_logo_name h1{
+    color: #564f3b;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
